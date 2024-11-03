@@ -50,7 +50,7 @@ func attack():
 		if iceSpearTimer.is_stopped():
 			iceSpearTimer.start()
 
-func _on_hurtbox_hurt(damage: Variant) -> void:
+func _on_hurtbox_hurt(damage: Variant, _angle, _knockback) -> void:
 	hp -= damage
 	print(hp)
 	
