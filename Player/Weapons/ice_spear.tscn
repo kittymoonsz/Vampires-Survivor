@@ -29,7 +29,7 @@ autostart = true
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_uktnq")
 volume_db = -10.0
-pitch_scale = 5.0
+pitch_scale = 6.0
 autoplay = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
